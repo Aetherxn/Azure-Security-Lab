@@ -6,7 +6,7 @@
 
 ## Threat / Risk Addressed
 
-## What I Built / Configured
+## Implementation (Security Controls)
 
 ## How I Validated It Worked
 
