@@ -19,8 +19,8 @@ Hands-on Azure security projects focused on real-world cloud defence, identity p
 2. Secure Azure Identity
 3. Mini SOC with Microsoft Sentinel
 4. Defender for Cloud Hardening
-5. Network Security Lab
-6. Incident Response Lab
+5. Network Security
+6. Incident Response
 
 ---
 
