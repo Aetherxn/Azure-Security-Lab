@@ -15,6 +15,8 @@ The environment supports:
 
 This setup serves as the base platform for the Sentinel SOC, Defender for Cloud monitoring, identity security testing, and incident response labs contained in this repository.
 
+---
+
 ## Objectives
 
 This lab focuses on:
@@ -28,9 +30,13 @@ This lab focuses on:
 - Validating telemetry ingestion using KQL
 - Preparing the environment for future detection engineering and threat hunting labs
 
+---
+
 ## Architecture
 
 ![architecture](architecture-diagram.jpg)
+
+---
 
 ## Environment Deployment
 
@@ -79,6 +85,8 @@ Run KQL queries to confirm log ingestion and visibility.
 SecurityEvent
 | take 10
 ```
+
+---
 
 ## Outcome
 
