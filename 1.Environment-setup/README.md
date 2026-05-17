@@ -86,6 +86,8 @@ SecurityEvent
 | take 10
 ```
 
+![KQL Validation](screenshots/07-kql-query.png)
+
 ---
 
 ## Outcome
