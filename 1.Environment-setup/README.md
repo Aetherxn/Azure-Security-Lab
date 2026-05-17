@@ -20,7 +20,7 @@ This setup serves as the base platform for the Sentinel SOC, Defender for Cloud 
 This lab focuses on:
 
 - Configuring foundational Azure security resources
-- Deploying and configured Log Analytics Workspace
+- Deploying and configuring Log Analytics Workspace
 - Enabling Microsoft Sentinel for SIEM monitoring
 - Connecting Azure Virtual Machine telemetry
 - Integrating security data connectors
