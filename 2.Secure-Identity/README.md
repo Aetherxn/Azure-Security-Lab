@@ -48,6 +48,15 @@ Implement identity and access management controls in Azure using Microsoft Entra
 
 ## Validation
 
+- Verify group membership inheritance through Azure RBAC assignments.
+- Confirm Service Desk users can manage virtual machines without elevated subscription-level permissions.
+- Review effective permissions to validate least privilege enforcement and administrative segmentation.
+- 
 ---
 
 ## Key Learnings
+
+- Group-based RBAC provides a more scalable and secure access control model than direct user role assignments.
+- Administrative segmentation reduces identity attack surface and limits privilege escalation opportunities.
+- Azure Powershell and Azure CLI support repeatable and automatable identity management workflows.
+- Least privilege enforcement is more effective when permissions align to operational responsibilties rather than individual users. 
