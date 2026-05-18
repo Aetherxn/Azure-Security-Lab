@@ -1,15 +1,11 @@
 # Designing and Securing Azure Network Access with NSGs and Segmentation
 
-## Problem
-
-## Azure Services Used
-
-## Threat / Risk Addressed
+## Objective
 
 ## Implementation (Security Controls)
 
-## How I Validated It Worked
+## Architecture Decisions
 
-## Outcome / Impact
+## Validation
 
 ## Key Learnings
