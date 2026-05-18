@@ -1,4 +1,4 @@
-# Securing Azure Identity with Conditional Access and RBAC
+# Securing Azure Identity Environment
 
 ## Problem
 
