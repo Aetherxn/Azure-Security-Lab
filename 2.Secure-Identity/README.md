@@ -23,9 +23,9 @@ Implement identity and access management controls in Azure using Microsoft Entra
 
 ![Group Configuration](screenshots/group-config.png)
 
-![PowerShell Administration](powershell-Admin.jpg)
+![PowerShell Administration](powershell-Admin.png)
 
-![PowerShell Administration2](powershell-Admin2.jpg)
+![PowerShell Administration2](powershell-Admin2.png)
 
 ![Azure CLI Administration](azure-cli-Administration.jpg)
 
