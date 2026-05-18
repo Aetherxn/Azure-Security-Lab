@@ -29,6 +29,8 @@ Implement identity and access management controls in Azure using Microsoft Entra
 
 ![RBAC Assignment](rbac-assignment.jpg)
 
+---
+
 ## Architecture Decisions
 
 - Use security groups as the RBAC boundary to improve scalability, auditing, and identity lifecycle management.
@@ -36,6 +38,10 @@ Implement identity and access management controls in Azure using Microsoft Entra
 - Select the Virtual Machine Contributor role to enforce least privilege while still enabling operational support tasks.
 - Avoid direct user-to-role assignments to minimise long-term privilege management complexity and reduce configuration drift.
 
+---
+
 ## Validation
+
+---
 
 ## Key Learnings
