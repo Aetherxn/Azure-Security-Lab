@@ -1,4 +1,4 @@
-# Phishing Incident Investigation – Email Analysis & IOC Extraction ![Status](https://img.shields.io/badge/status-Completed-brightgreen)
+# Phishing Incident Investigation
 
 ## Overview
 
