@@ -21,6 +21,7 @@ Hands-on Azure security projects focused on real-world cloud defence, identity p
 4. [Microsoft Defender](4.Microsoft-Defender)
 5. [Network Security](5.Network-Security)
 6. [Incident Response](6.Incident-Response)
+7. [Phishing Incident Investigation](7.Phishing-Incident)
 
 ---
 
