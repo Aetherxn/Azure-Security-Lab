@@ -155,7 +155,7 @@ User receives phishing email
 
 This investigation demonstrates how phishing attacks continue to exploit human behavior and weak email authentication controls.
 
-From a cloud security engineering perspective, effective defense requires:
+From a cloud security engineering perspective, effective defence requires:
 
 - Strong email authentication enforcement  
 - SIEM-based correlation of identity + email signals  
