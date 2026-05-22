@@ -51,7 +51,6 @@ Implement identity and access management controls in Azure using Microsoft Entra
 - Verify group membership inheritance through Azure RBAC assignments.
 - Confirm Service Desk users can manage virtual machines without elevated subscription-level permissions.
 - Review effective permissions to validate least privilege enforcement and administrative segmentation.
-- 
 ---
 
 ## Key Learnings
