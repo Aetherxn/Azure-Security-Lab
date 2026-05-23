@@ -1,6 +1,4 @@
-# Secure Azure Identity Environment
-
-## Securing Azure Identity with RBAC
+# Securing Azure Identity with RBAC
 
 ### Objective
 
