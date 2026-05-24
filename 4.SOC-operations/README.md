@@ -1,4 +1,12 @@
-# Building a Cloud SIEM with Microsoft Sentinel and KQL
+# Microsoft Sentinel and KQL
+
+## Overview 
+
+Microsoft Sentinel has already been deployed and data ingestion is set up. You can see the initial setup in my [Azure Environment Setup](1.Azure-setup) repository.
+
+This repository focuses on the detection and investigation side of Microsoft Sentinel, along with writing and testing Kusto Query Language (KQL) queries.
+
+---
 
 ## Problem
 
