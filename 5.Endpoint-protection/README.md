@@ -1,4 +1,4 @@
-# Microsoft Defender XDR to Improve Security Posture
+# Microsoft Defender XDR
 
 ## Overview 
 
