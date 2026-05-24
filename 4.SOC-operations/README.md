@@ -2,7 +2,7 @@
 
 ## Overview 
 
-Microsoft Sentinel has already been deployed and data ingestion is set up. You can see the initial setup in my [Azure Environment Setup](1.Azure-setup) repository.
+Microsoft Sentinel has already been deployed and data ingestion is set up. You can see the initial setup in my [Azure Environment Setup](Azure-Security-Lab/1.Azure-setup) repository.
 
 This repository focuses on the detection and investigation side of Microsoft Sentinel, along with writing and testing Kusto Query Language (KQL) queries.
 
