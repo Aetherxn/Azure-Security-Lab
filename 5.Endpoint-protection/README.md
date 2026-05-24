@@ -1,15 +1,27 @@
-# Improving Cloud Security Posture with Microsoft Defender for Cloud
+# Microsoft Defender to Improving Cloud Security Posture
+
+## Overview 
+
+---
 
 ## Problem
 
+---
+
 ## Azure Services Used
+
+---
 
 ## Threat / Risk Addressed
 
+---
+
 ## Implementation (Security Controls)
 
-## How I Validated It Worked
+---
 
-## Outcome / Impact
+## Validation
+
+---
 
 ## Key Learnings
