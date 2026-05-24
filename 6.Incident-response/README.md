@@ -1,15 +1,28 @@
-# Detecting and Responding to Security Incidents in Azure
+# Detecting and Responding to Security Incidents
+
+## Overview 
+
+---
 
 ## Problem
 
+---
+
 ## Azure Services Used
+
+---
 
 ## Threat / Risk Addressed
 
+---
+
 ## Implementation (Security Controls)
 
-## How I Validated It Worked
+---
 
-## Outcome / Impact
+## Validation
+
+---
 
 ## Key Learnings
+
