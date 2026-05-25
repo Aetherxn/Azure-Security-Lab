@@ -37,10 +37,10 @@ Implement identity and access management controls in Azure using Microsoft Entra
 
 ## Architecture Decisions
 
-- Use security groups as the RBAC boundary to improve scalability, auditing, and identity lifecycle management.
-- Separate administrative functions into dedicated groups to support Zero - Trust principles and reduce lateral movement risk.
-- Select the Virtual Machine Contributor role to enforce least privilege while still enabling operational support tasks.
-- Avoid direct user-to-role assignments to minimise long-term privilege management complexity and reduce configuration drift.
+- Use security groups as the main RBAC boundary to keep things scalable, easier to audit, and simpler to manage over time.
+- Split administrative roles into separate groups to support Zero Trust principles and limit the risk of lateral movement.
+- Assign the Virtual Machine Contributor role to keep permissions at least-privilege while still allowing day-to-day support tasks.
+- Avoid assigning roles directly to users to reduce long-term maintenance overhead and prevent permission drift.
 
 ---
 
