@@ -29,3 +29,11 @@ This repository focuses on the detection and investigation side of Microsoft Sen
 ---
 
 ## Key Learnings
+
+- **Microsoft Sentinel** is a scalable, cloud-native solution which combines **Security Information and Event Management (SIEM)** and **Security Orchestration, Automation, and Response (SOAR)** to:
+    - Collect and query logs
+    - Correlate or detect anomalies
+    - Create alerts and incidents
+    - Define playbooks
+    - Automate threat responses
+It also delivers security analytics and threat intelligence. Sentinel works off 4 main pillars: **Collect, Detect,Investigate and Respond**.
