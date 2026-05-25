@@ -1,13 +1,5 @@
-# Microsoft Defender XDR
+# Microsoft Defender XDR & Defender for Cloud
 
-## Overview 
+This project explores how Microsoft Defender XDR helps detect and respond to real-world cyber threats through hands-on attack simulations. The labs cover different stages of an attack, including **defence evasion, privilege escalation, credential access, execution, and lateral movement**, giving practical insight into how attackers operate and how security teams investigate and respond.
 
-Demonstrate how Microsoft Defender XDR detects and responds to real-world attack techniques through hands-on lab simulations. The scenarios cover key stages of an attack, including:
-
-* Defence evasion
-* Privilege escalation
-* Credential access
-* Execution
-* Lateral movement
-
-This section explores how data from alerts, incidents, and investigations help security teams identify attacker behavior and respond effectively in a cloud-native environment.
+It also demonstrates how alerts, incidents, and investigation data can be used to track malicious activity and improve response in a cloud-native environment. Alongside this, the project highlights how Microsoft Defender for Cloud supports organisations by improving security posture, identifying misconfigurations, and helping maintain compliance across cloud resources.
