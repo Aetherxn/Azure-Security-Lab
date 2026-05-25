@@ -37,4 +37,4 @@ This repository focuses on the detection and investigation side of Microsoft Sen
     - Define playbooks
     - Automate threat responses
 
-It also delivers security analytics and threat intelligence. Sentinel works off 4 main pillars: **Collect, Detect,Investigate and Respond**.
+It also delivers security analytics and threat intelligence. Sentinel works off 4 phases: **Collect, Detect,Investigate and Respond**.
