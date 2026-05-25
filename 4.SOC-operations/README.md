@@ -38,3 +38,5 @@ This repository focuses on the detection and investigation side of Microsoft Sen
     - Automate threat responses
 
 It also delivers security analytics and threat intelligence. Sentinel works off 4 phases: **Collect, Detect,Investigate and Respond**.
+
+- Alert Fatigue is a challenge in SOC environments, this happens when analyst are flooded with security alerts which then leads to mental burnout and bad reaction times. Automation in SecOps is essential. Automated workflows A.K.A playbooks solves this issue by providing automated responses for **Incident management, Enrichment, Investigation and Remediation**.
