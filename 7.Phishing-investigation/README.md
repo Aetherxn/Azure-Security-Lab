@@ -2,7 +2,21 @@
 
 ## Overview
 
-Simulated a Phishing Attack on a Global Payment providers SOC to focus on Phishing analysis, IOC extraction, and detection engineering in a cloud-enabled SOC environment.
+Simulated a phishing incident investigation in a global payment provider SOC environment. The project focused on phishing analysis, IOC extraction, email authentication analysis, and improving detection visibility using Azure security tools.
+
+---
+
+## Problem
+
+A user reported a suspicious email that appeared to come from a trusted service provider. The email contained a link to a fake login page designed to capture user credentials.
+
+The investigation focused on:
+
+- Determining whether the email was malicious
+- Extracting and validating IOCs
+- Checking how the phishing attempt bypassed controls
+- Investigating potential user interaction
+- Identifying gaps in detection coverage within the SOC
 
 ---
 
