@@ -47,7 +47,7 @@ A user reported a suspicious email impersonating a trusted service provider. The
 ## Security Improvements
 
 - Recommended stricter SPF, DKIM, and DMARC enforcement
-- Added detection rules for lookalike and impersonation domains
+- Created Sentinel alert rules for SPF/DKIM failures and lookalike domains
 - Improved phishing filtering in email security gateway
 - Created Sentinel alerts for authentication failures tied to phishing activity
 - Correlated email telemetry with identity sign-in logs
@@ -58,7 +58,8 @@ A user reported a suspicious email impersonating a trusted service provider. The
 ## Key Learnings
 
 - Phishing campaigns rely heavily on domain impersonation and urgency tactics
-- Email authentication failures (SPF/DKIM/DMARC) remain strong indicators of malicious activity
-- Correlating email and identity logs improves detection accuracy in SOC environments
+- Email authentication failures were the most reliable early indicator in this case
+- Correlating Entra ID logs helped confirm no successful credential use
+- No successful sign-ins were detected after click simulation
 - Microsoft Sentinel is effective for linking phishing IOCs with user activity
 - Detection engineering is key to reducing time to identify and respond to phishing attempts
