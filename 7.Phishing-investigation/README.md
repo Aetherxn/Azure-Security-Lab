@@ -4,6 +4,8 @@
 
 Simulated investigation of a phishing email reported within a global payment provider SOC environment. Focused on email analysis, IOC extraction, and validating detection coverage using Azure security tools.
 
+![Global Payment Provider](payment-provider.png)
+
 ---
 
 ## Technologies Used
