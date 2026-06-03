@@ -1,4 +1,4 @@
-# Microsoft Sentinel and KQL
+# Microsoft Sentinel
 
 ## Overview 
 
