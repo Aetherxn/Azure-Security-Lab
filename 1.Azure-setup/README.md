@@ -82,6 +82,8 @@ Configure data connectors to ingest security telemetry from Azure and Windows so
 
 ![Data Connectors](screenshots/04-data-connectors.png)
 
+**Notes:** - *Data connectors send logs to Log Analytics Workspaces in MS Sentinel.*
+
 ### 5. Virtual Machine Telemetry
 
 Validate that the Azure VM is sending security logs to Log Analytics.
