@@ -64,8 +64,8 @@ Enable Microsoft Sentinel for SIEM-based monitoring and detection.
 
 **Notes:**
 
-Microsoft SOC Teams are assigned specific roles and permissions. 
-Each team member is assigned either or a combination of these roles to perform their daily tasks:
+*Microsoft SOC Teams are assigned specific roles and permissions. 
+Each team member is assigned either or a combination of these roles to perform their daily tasks*:
 
 - **Microsoft Sentinel Reader** Stakeholders, SOC managers,etc
 - **Microsoft Sentinel Responder** Security analysts L1, incident responders
