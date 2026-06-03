@@ -62,6 +62,20 @@ Enable Microsoft Sentinel for SIEM-based monitoring and detection.
 
 ![Sentinel Enabled](screenshots/03-sentinel-enabled.png)
 
+**Notes:**
+
+Microsoft SOC Teams are assigned specific roles and permissions. 
+Each team member is assigned either or a combination of these roles to perform their daily tasks:
+
+- **Microsoft Sentinel Reader** Stakeholders, SOC managers,etc
+- **Microsoft Sentinel Responder** Security analysts L1, incident responders
+- **Microsoft Sentinel Contributor** Security engineers L2, Fusion Analytics team members
+  - Install and manage Solutions using Content Hub
+  - Create and delete workbooks
+
+- **Microsoft Sentinel Playbook Operator** Security analysts L1, Automation team members
+  - Automate responses to threats with playbooks
+
 ### 4. Data Connector Integration
 
 Configure data connectors to ingest security telemetry from Azure and Windows sources.
