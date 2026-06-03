@@ -52,7 +52,9 @@ Deploy a Log Analytics Workspace for centralised log ingestion and retention.
 
 ![Log Analytics](screenshots/02-log-analytics.png)
 
-**Notes:** *Log Analytics workspaces are essential for collecting, storing, and analysing log data from different sources to provide security insights and help detect threats.*
+**Notes:** 
+- *Log Analytics workspaces are essential for collecting, storing, and analysing log data from different sources to provide security insights and help detect threats.*
+- *Sometimes called Microsoft Sentinel Workspace once Microsoft Sentinel is enabled on it*
 
 ### 3. Microsoft Sentinel Enablement
 
