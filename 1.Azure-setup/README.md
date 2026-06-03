@@ -103,13 +103,11 @@ Run KQL queries to confirm log ingestion and visibility.
 
 ---
 
-## Outcome
+## Key Learnings
 
-This environment provides a centralised Azure security monitoring platform capable of supporting:
-
-- detection engineering
-- threat hunting
-- cloud monitoring
-- identity security analysis
-- incident response simulations
-- SOC investigation workflows
+- Learned how to deploy and configure Microsoft Sentinel, including setting up a Log Analytics workspace.
+- Gained an understanding of Microsoft Sentinel roles and permissions and how they support secure access management.
+- Explored Content Hub solutions and Data Connectors to bring data into Microsoft Sentinel.
+- Connected and configured data sources for centralised log collection and monitoring.
+- Verified and reviewed ingested logs to ensure data was being collected correctly and was ready for analysis.
+- Developed a better understanding of how a cloud-based SIEM can be used to monitor and investigate security events.
