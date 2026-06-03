@@ -17,9 +17,9 @@ Hands-on Azure security projects focused on real-world cloud defence, identity p
 
 1. [Azure Environment Setup](1.Azure-setup)
 2. [Secure Identity](2.Secure-identity)
-3. [SOC Operations](3.SOC-operations)
-4. [Endpoint Protection](4.Endpoint-protection)
-5. [Network Security](5.Network-security)
+3. [Network Security](3.Network-security)
+4. [SOC Operations](4.SOC-operations)
+5. [Endpoint Protection](5.Endpoint-protection)
 6. [Incident Response](6.Incident-response)
 7. [Phishing Investigation](7.Phishing-investigation)
 
