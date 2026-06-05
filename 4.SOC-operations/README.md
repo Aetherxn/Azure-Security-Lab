@@ -16,6 +16,11 @@ This project demonstrates how Microsoft Sentinel is used in a SOC environment to
 
 ## Azure Services Used
 
+- Microsoft Sentinel
+- Log Analytics Workspace
+- Microsoft Entra ID (Azure AD)
+- Azure Activity Logs
+
 ---
 
 ## Threat / Risk Addressed
