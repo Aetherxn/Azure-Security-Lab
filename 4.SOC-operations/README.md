@@ -38,4 +38,9 @@ This project demonstrates how Microsoft Sentinel is used in a SOC environment to
 
 ## Key Learnings
 
-- 
+- Understood what Analytics Rules and Rule Templates are and how they’re used to detect threats in Microsoft Sentinel
+- Identified key parts of an Analytics Rule, including severity, data sources, scheduling, and MITRE ATT&CK mappings
+- Created and enabled Analytics Rules from built-in templates and made basic customisations for the environment
+- Gained hands-on experience using Analytics Rules to generate alerts and incidents in Sentinel
+
+**To be Continued...**
