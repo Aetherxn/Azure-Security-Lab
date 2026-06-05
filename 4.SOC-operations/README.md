@@ -2,9 +2,7 @@
 
 ## Overview 
 
-Microsoft Sentinel has already been deployed and data ingestion is set up. You can see the initial setup in my [Azure Environment Setup](https://github.com/CybersecGen/Azure-Security-Lab/tree/main/1.Azure-setup) repository.
-
-This repository focuses on the detection and investigation side of Microsoft Sentinel, along with writing and testing Kusto Query Language (KQL) queries.
+This project demonstrates how Microsoft Sentinel is used in a SOC environment to detect and investigate security threats. It covers Analytics Rules, incident triage, threat hunting, and KQL-based investigations to validate alerts, correlate events, and understand attacker activity.
 
 ---
 
