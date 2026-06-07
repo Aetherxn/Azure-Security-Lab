@@ -8,7 +8,9 @@ This project demonstrates how Microsoft Sentinel is used in a SOC environment to
 
 ## Problem
 
-- 
+Microsoft Sentinel generated a high-severity incident that suggested possible Command and Control (C2) activity. The incident contained several alerts related to suspicious sign-in attempts from an external IP address targeting disabled accounts.
+
+As the SOC Level 1 Analyst, I needed to investigate the alerts, review the related logs and entities, and determine whether the activity posed a genuine threat to the organisation. Based on the evidence gathered during triage, I then had to decide if the incident should be escalated to the SOC Level 2 team for further investigation and threat hunting.
 
 **Note:** *One major challenge in SOC environments is **alert fatigue**, where analysts are overwhelmed by large volumes of alerts, leading to slower response times and burnout. **Sentinel playbooks** help reduce this burden by automating tasks such as incident management, enrichment, investigation, and remediation, allowing analysts to focus on higher priority threats*.
 
@@ -19,7 +21,6 @@ This project demonstrates how Microsoft Sentinel is used in a SOC environment to
 - Microsoft Sentinel
 - Log Analytics Workspace
 - Microsoft Entra ID (Azure AD)
-- Azure Activity Logs
 - Azure Monitor
 
 ---
