@@ -1,4 +1,4 @@
-# Phishing Incident Investigation (SOC Simulation)
+# Phishing Incident Investigation
 
 ## Overview
 
