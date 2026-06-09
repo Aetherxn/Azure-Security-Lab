@@ -19,7 +19,7 @@ As the SOC Level 1 Analyst, I needed to investigate the alerts, review the relat
 ## Technologies Used
 
 - Microsoft Sentinel (SIEM) — log correlation, IOC analysis, investigation
-- Log Analytics Workspace - data aggregation analysis
+- Log Analytics Workspace — data aggregation analysis
 - Microsoft Entra ID (Azure AD) — identity and sign-in log correlation
 - Azure Monitor — log visibility and telemetry
 
