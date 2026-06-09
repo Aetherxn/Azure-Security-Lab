@@ -6,18 +6,18 @@ Simulated investigation of a phishing email reported within a global payment pro
 
 ---
 
+## Problem
+
+A user reported a suspicious email impersonating a trusted service provider. The email contained a link to a fake login page designed to capture credentials using a lookalike domain.
+
+---
+
 ## Technologies Used
 
 - Microsoft Sentinel (SIEM) — log correlation, IOC analysis, investigation
 - Microsoft Defender for Office 365 — email and phishing analysis
 - Microsoft Entra ID — identity and sign-in log correlation
 - Azure Monitor — log visibility and telemetry
-
----
-
-## Scenario
-
-A user reported a suspicious email impersonating a trusted service provider. The email contained a link to a fake login page designed to capture credentials using a lookalike domain.
 
 ---
 
