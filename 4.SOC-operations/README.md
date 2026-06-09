@@ -20,8 +20,8 @@ As the SOC Level 1 Analyst, I needed to investigate the alerts, review the relat
 
 - Microsoft Sentinel
 - Log Analytics Workspace
-- Microsoft Entra ID (Azure AD)
-- Azure Monitor
+- Microsoft Entra ID (Azure AD) — identity and sign-in log correlation
+- Azure Monitor — log visibility and telemetry
 
 ---
 
