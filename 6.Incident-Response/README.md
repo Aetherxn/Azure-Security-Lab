@@ -12,15 +12,15 @@
 
 ---
 
-## Threat / Risk Addressed
+## Investigation Summary
 
 ---
 
-## Implementation (Security Controls)
+## Key Findings (IOCs & Evidence)
 
 ---
 
-## Validation
+## Security Improvements / Recommendations
 
 ---
 

@@ -16,7 +16,7 @@ As the SOC Level 1 Analyst, I needed to investigate the alerts, review the relat
 
 ---
 
-## Technologies Used
+## Azure Services Used
 
 - Microsoft Sentinel (SIEM) — log correlation, IOC analysis, investigation
 - Log Analytics Workspace — data aggregation analysis
@@ -25,15 +25,15 @@ As the SOC Level 1 Analyst, I needed to investigate the alerts, review the relat
 
 ---
 
-## Threat / Risk Addressed
+## Investigation Summary
 
 ---
 
-## Implementation (Security Controls)
+## Key Findings (IOCs & Evidence)
 
 ---
 
-## Validation
+## Security Improvements / Recommendations
 
 ---
 
