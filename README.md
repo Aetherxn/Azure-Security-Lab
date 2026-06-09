@@ -41,4 +41,4 @@ Hands-on Azure security projects focused on real-world cloud defence, identity p
 
 ## Goal
 
-This repository documents my journey developing practical Azure security skills through hands-on labs, attack simulations, monitoring, and cloud security operations.
+This repository documents my journey developing practical Azure security skills through hands-on projects, attack simulations, monitoring, and cloud security operations.
