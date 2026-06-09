@@ -2,7 +2,7 @@
 
 ### Overview
 
-This section establishes the Azure environment used across the Azure Security Lab. It provides the foundational infrastructure for logging, monitoring, and security detection using Microsoft Sentinel and Defender for Cloud.
+This section establishes the Azure environment used across the Azure Security Portfolio. It provides the foundational infrastructure for logging, monitoring, and security detection using Microsoft Sentinel and Defender for Cloud.
 
 The environment supports:
 
