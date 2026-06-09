@@ -16,7 +16,7 @@ As the SOC Level 1 Analyst, I needed to investigate the alerts, review the relat
 
 ---
 
-## Azure Services Used
+## Technologies Used
 
 - Microsoft Sentinel
 - Log Analytics Workspace
