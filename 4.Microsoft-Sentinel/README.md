@@ -1,4 +1,4 @@
-# Microsoft Sentinel with KQL
+# Microsoft Sentinel Detection & Investigation
 
 ## Overview 
 
