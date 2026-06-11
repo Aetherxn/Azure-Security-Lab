@@ -29,7 +29,7 @@ Assumed ownership of a high-severity incident titled **"Sign-ins from IPs that a
 
 To determine the scope and severity of the activity, incident details were reviewed, including associated alerts, entities, timestamps, event counts, and mapped MITRE ATT&CK techniques. This helped me understand what had triggered the incident and identify the areas that required further investigation.
 
-![Incident Details](screenshots/Incident-details.png)
+![Incident Details](screenshots/incident-details.png)
 
 During the review, I identified authentication attempts originating from suspicious IP addresses that was targeting disabled user accounts. To better understand the activity, I analysed the incident timeline and examined how the events were related.
 
