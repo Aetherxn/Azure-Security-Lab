@@ -57,9 +57,9 @@ A user reported a suspicious email impersonating a trusted service provider. The
 
 ## Key Learnings
 
-- Phishing campaigns rely heavily on domain impersonation and urgency tactics
-- Email authentication failures were the most reliable early indicator in this case
-- Correlating Entra ID logs helped confirm no successful credential use
-- No successful sign-ins were detected after click simulation
-- Microsoft Sentinel is effective for linking phishing IOCs with user activity
-- Detection engineering is key to reducing time to identify and respond to phishing attempts
+- Recognised common phishing techniques such as domain impersonation and urgency-based messaging used to trick users.
+- Used email authentication checks (SPF/DKIM/DMARC) as early indicators to assess whether the email was legitimate.
+- Correlated indicators of compromise with Entra ID sign-in logs to confirm no successful credential use.
+- Verified in Microsoft Sentinel that there was no post-click suspicious activity or sign-in attempts.
+- Gained experience linking phishing indicators across email and identity logs to support faster incident validation.
+- Understood how detection engineering improves the speed and accuracy of phishing investigations.
