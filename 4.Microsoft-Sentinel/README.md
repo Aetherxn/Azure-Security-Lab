@@ -60,19 +60,6 @@ After correlating the available evidence across alerts, logs, and entities, I co
 | Authentication Events | Multiple failed sign-in attempts | Required further investigation |
 | Geolocation Data | External location | Used to provide context for the activity |
 
-### Evidence Summary
-
-- Multiple failed authentication attempts were observed from a suspicious external IP address.
-- The activity targeted disabled user accounts, which could indicate account enumeration or unauthorised access attempts.
-- Analysis of logs, alerts, and entities provided supporting evidence that the activity was unusual and required further review.
-- Based on the available evidence, escalation was recommended to allow for deeper investigation and threat hunting.
-
-> **Screenshot:** Authentication Logs Showing Failed Sign-ins
-
-> **Screenshot:** IP Address Investigation / Entity Details
-
-> **Screenshot:** Supporting Alert Evidence
-
 ---
 
 ## Security Improvements / Recommendations
