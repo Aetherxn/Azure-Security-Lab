@@ -29,7 +29,7 @@ Assumed ownership of a high-severity incident titled **"Sign-ins from IPs that a
 
 To determine the scope and severity of the activity, incident details were reviewed, including associated alerts, entities, timestamps, event counts, and mapped MITRE ATT&CK techniques. This helped me understand what had triggered the incident and identify the areas that required further investigation.
 
-> **Screenshot:** Alert Details and MITRE ATT&CK Mapping
+![Alert Details](screenshots/alert-details.png)
 
 During the review, I identified authentication attempts originating from suspicious IP addresses that was targeting disabled user accounts. To better understand the activity, I analysed the incident timeline and examined how the events were related.
 
@@ -75,9 +75,7 @@ After correlating the available evidence across alerts, logs, and entities, I co
 
 ## Key Learnings
 
-- Understood what Analytics Rules and Rule Templates are and how they’re used to detect threats in Microsoft Sentinel
-- Identified key parts of an Analytics Rule, including severity, data sources, scheduling, and MITRE ATT&CK mappings
-- Created and enabled Analytics Rules from built-in templates and made basic customisations for the environment
-- Gained hands-on experience using Analytics Rules to generate alerts and incidents in Sentinel
-
-**To be Continued...**
+- Configured and customised Microsoft Sentinel Analytics Rules to generate and investigate security alerts.
+- Worked with rule severity, scheduling, data sources, and MITRE ATT&CK mappings to support threat detection.
+- Investigated, triaged, and classified security incidents in a simulated SOC environment.
+- Managed incidents through to closure, documenting findings and escalating more complex cases for further investigation.
