@@ -29,23 +29,25 @@ Assumed ownership of a high-severity incident titled **"Sign-ins from IPs that a
 
 To determine the scope and severity of the activity, incident details were reviewed, including associated alerts, entities, timestamps, event counts, and mapped MITRE ATT&CK techniques. This helped me understand what had triggered the incident and identify the areas that required further investigation.
 
-![Alert Details](screenshots/alert-details.png)
+![Incident Details](screenshots/Incident-details.png)
 
 During the review, I identified authentication attempts originating from suspicious IP addresses that was targeting disabled user accounts. To better understand the activity, I analysed the incident timeline and examined how the events were related.
 
-> **Screenshot:** Incident Timeline Analysis
+![Incident Timeline Analysis](screenshots/incident-timeline.png)
 
 To validate the alerts, I pivoted into Log Analytics and reviewed the underlying authentication and security logs. I focused on the Source IP address, affected accounts, authentication outcomes, and any related events that could give additional information.
 
-> **Screenshot:** Log Analytics Query Results
+![Log Analytics Query Results](screenshots/laq.png)
 
 Next, I investigated the entities aasociated with the incident, including the suspicious IP address and affected accounts. By reviewing entity information and geolocation data, I was able to build a career picture of the activity and assess whether it aligned with expected behaviour.
 
-> **Screenshot:** Entity Investigation and IP Details
+![Entity Investigation](screenshots/entity1.png)
+
+![IP Details](screenshots/entity2.png)
 
 After correlating the available evidence across alerts, logs, and entities, I concluded that the activity required further investigation. I documented my findings, created an escalation task summarising the actions taken, and escalated the incident to the SOC Level 2 team for deeper analysis and threat hunting.
 
-> **Screenshot:** Escalation Task / Incident Assignment to SOC Level 2
+![Escalation Task / Incident Assignment to SOC Level 2](screenshots/task.png)
 
 ---
 
