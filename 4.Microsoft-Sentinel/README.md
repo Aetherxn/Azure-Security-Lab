@@ -27,13 +27,66 @@ As the SOC Level 1 Analyst, I needed to investigate the alerts, review the relat
 
 ## Investigation Summary
 
+Assumed ownership of a high-severity incident titled **"Solorigate Network Beacon"** for investigation. The incident contained several alerts that indicated possible Command and Control (C2) activity, I needed to determine if it was a genuine security risk.
+
+![Incident Overview](screenshots/incident-overview.png)
+
+To determine the scope and severity of the activity, incident details were reviewed, including associated alerts, entities, timestamps, event counts, and mapped MITRE ATT&CK techniques. This helped me understand what had triggered the incident and identify the areas that required further investigation.
+
+> **Screenshot:** Alert Details and MITRE ATT&CK Mapping
+
+During the review, I identified authentication attempts originating from suspicious IP addresses that was targeting disabled user accounts. To better understand the activity, I analysed the incident timeline and examined how the events were related.
+
+> **Screenshot:** Incident Timeline Analysis
+
+To validate the alerts, I pivoted into Log Analytics and reviewed the underlying authentication and security logs. I focused on the Source IP address, affected accounts, authentication outcomes, and any related events that could give additional information.
+
+> **Screenshot:** Log Analytics Query Results
+
+Next, I investigated the entities aasociated with the incident, including the suspicious IP address and affected accounts. By reviewing entity information and geolocation data, I was able to build a career picture of the activity and assess whether it aligned with expected behaviour.
+
+> **Screenshot:** Entity Investigation and IP Details
+
+After correlating the available evidence across alerts, logs, and entities, I concluded that the activity required further investigation. I documented my findings, created an escalation task summarising the actions taken, and escalated the incident to the SOC Level 2 team for deeper analysis and threat hunting.
+
+> **Screenshot:** Escalation Task / Incident Assignment to SOC Level 2
+
 ---
 
 ## Key Findings (IOCs & Evidence)
 
+
+| IOC Type | Evidence | Relevance |
+|-----------|-----------|------------|
+| Source IP Address | XXX.XXX.XXX.XXX | Generated multiple authentication attempts |
+| User Account | Disabled account(s) | Targeted during sign-in attempts |
+| Alert Name | Solorigate Beacon | Triggered due to suspicious activity patterns |
+| Authentication Events | Multiple failed sign-in attempts | Required further investigation |
+| Geolocation Data | External location | Used to provide context for the activity |
+
+### Evidence Summary
+
+- Multiple failed authentication attempts were observed from a suspicious external IP address.
+- The activity targeted disabled user accounts, which could indicate account enumeration or unauthorised access attempts.
+- Analysis of logs, alerts, and entities provided supporting evidence that the activity was unusual and required further review.
+- Based on the available evidence, escalation was recommended to allow for deeper investigation and threat hunting.
+
+> **Screenshot:** Authentication Logs Showing Failed Sign-ins
+
+> **Screenshot:** IP Address Investigation / Entity Details
+
+> **Screenshot:** Supporting Alert Evidence
+
 ---
 
 ## Security Improvements / Recommendations
+
+- Continue monitoring authentication activity associated with the identified IP address.
+- Perform additional threat hunting to determine whether similar activity exists elsewhere in the environment.
+- Review controls and monitoring related to disabled user accounts.
+- Investigate whether the source IP address is associated with known malicious activity.
+- Consider enriching authentication alerts with IP reputation data to improve future investigations.
+- Regularly review and tune detection rules to ensure suspicious authentication activity is identified quickly..
 
 ---
 
