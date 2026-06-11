@@ -8,7 +8,7 @@ This project demonstrates how Microsoft Sentinel is used in a SOC environment to
 
 ## Problem
 
-Microsoft Sentinel raised a high-severity incident for suspected C2 activity after detecting repeated sign-in attempts from an external IP address against disabled accounts.
+Microsoft Sentinel raised a medium-severity incident after detecting repeated sign-in attempts from an external IP address against disabled accounts.
 
 ---
 
@@ -23,7 +23,7 @@ Microsoft Sentinel raised a high-severity incident for suspected C2 activity aft
 
 ## Investigation Summary
 
-Assumed ownership of a high-severity incident titled **"Solorigate Network Beacon"** for investigation. The incident contained several alerts that indicated possible Command and Control (C2) activity, I needed to determine if it was a genuine security risk.
+Assumed ownership of a high-severity incident titled **"Sign-ins from IPs that attempt sign-ins to disabled accounts"** for investigation. The incident contained several alerts that indicated repeated sign-in attempts against disabled accounts, and I needed to determine if it was a genuine security risk.
 
 ![Incident Overview](screenshots/incident-overview.png)
 
@@ -56,7 +56,7 @@ After correlating the available evidence across alerts, logs, and entities, I co
 |-----------|-----------|------------|
 | Source IP Address | 175.45.176.99 | Generated multiple authentication attempts |
 | User Account | Disabled account(s) | Targeted during sign-in attempts |
-| Alert Name | Solorigate Beacon | Triggered due to suspicious activity patterns |
+| Alert Name | Sign-ins from IPs that attempt sign-ins to disabled accounts | Triggered due to suspicious authentication activity |
 | Authentication Events | Multiple failed sign-in attempts | Required further investigation |
 | Geolocation Data | External location | Used to provide context for the activity |
 
@@ -69,7 +69,7 @@ After correlating the available evidence across alerts, logs, and entities, I co
 - Review controls and monitoring related to disabled user accounts.
 - Investigate whether the source IP address is associated with known malicious activity.
 - Consider enriching authentication alerts with IP reputation data to improve future investigations.
-- Regularly review and tune detection rules to ensure suspicious authentication activity is identified quickly..
+- Regularly review and tune detection rules to ensure suspicious authentication activity is identified quickly.
 
 ---
 
