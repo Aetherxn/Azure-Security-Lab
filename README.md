@@ -35,7 +35,6 @@ Hands-on Azure security projects focused on real-world cloud defence, identity p
 - Log Analytics
 - KQL
 - PowerShell
-- Kali Linux
 
 ---
 
